@@ -26,7 +26,7 @@
 
 ---
 
-###  RandomForest/ExtraTrees
+### RandomForest/ExtraTrees
 - N_estimators: 大きい方がいいが時間がかかる。一定の値より大きいと効果は逓減する。
  - 10,300の順で試す。N_estimatorsとモデルの精度をプロットし、十分に精度が出る値で止める。
 - max_depth: 標準では制約なし。まず7を試し、10,20といった具合に増やしていく。
