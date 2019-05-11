@@ -1,9 +1,12 @@
 ### Regularization
 
 - Mean Target Encoding
- - xxx
 - Noise
 - Expanding Mean Target Encoding
+
+```
+label_mean = df.groupby('category').label.mean()
+```
 
 ---
 
