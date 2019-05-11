@@ -1,10 +1,24 @@
-### About Kaggle
-![Kaggle leaderboard](assets/img/kaggle_lb.png)
+### Coursera Kaggle講座
+
+
+- "How to win a data scienece competition: learn from top kagglers"
+- ロシアのNational Research University Higher School of Economicsが主催
+- 講師はKaggleのトップランカー
+- アカデミックな内容よりは、Kaggleで勝つためのテクニック
+- Data Leakのようなコンペでは発生するが実世界では使えない"邪道"な内容も扱う
 
 ---
 
-### Regularization
+### 今回の受講内容
+- 特徴量エンジニアリング
+ - インプットするデータの加工
+- hyperparameterチューニング
+ - モデルにデータを入れて学習させるだけならば簡単になっている
+ - モデルのチューニングが難しい
 
+---
+
+### Encoding
 - Mean Target Encoding
  - Leakを生じさせてしまうのでFoldに合わせたencodingが必要
 - Noise
@@ -52,9 +66,6 @@
 - バッチサイズをx倍にする時は、learning rateもx倍にする
 - Dropout: データの近くのレイヤーをdropoutするとデータの情報が削ぎ落とされるてパフォーマンスが落ちるので、中間のレイヤーに適用する
 
-### Tips
-Tips
-
 ---
 
 ### Preprocessing
@@ -65,3 +76,5 @@ Tips
 - True CV loops demands high cost
 - start with lightgbm
 - select model after feature engineering
+
+---
