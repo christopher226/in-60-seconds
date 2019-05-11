@@ -1,6 +1,7 @@
 ### Regularization
 
 - Mean Target Encoding
+ - xxx
 - Noise
 - Expanding Mean Target Encoding
 
@@ -23,6 +24,8 @@
 - min_sample_leaf is corresponding to min_child_weight
 - criteria: Geni is generally better than Entropy
 - n_jobs: do not forget to set as num of cores
+
+---
 
 ### DNN
 -overfit to underfi
