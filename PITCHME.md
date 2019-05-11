@@ -1,9 +1,9 @@
 ### Regularization
 
 - Mean Target Encoding
- -Leakを生じさせてしまうのでFoldに合わせたencodingが必要
+ - Leakを生じさせてしまうのでFoldに合わせたencodingが必要
 - Noise
- -noiseを加える
+ - noiseを加える
 - Expanding Mean Target Encoding
  -カテゴリ内でその行より前までの平均をとる
 
@@ -38,11 +38,11 @@
 ---
 
 ### Neaural Networks
--まずoverfitさせてからモデルに制約をかけてunderfitさせていく
--Opotimization Algorithm: SGD+momentum or Ada/AdaDelta
+- まずoverfitさせてからモデルに制約をかけてunderfitさせていく
+- Opotimization Algorithm: SGD+momentum or Ada/AdaDelta
  - SGD+momentumの方がoverfittingしないので良い
--Batch size: 500だと大きすぎる。32か64から始めると良い。
+- Batch size: 500だと大きすぎる。32か64から始めると良い。
  - あまり小さいとgradientにノイズが含まれすぎるのでほどほどに。
--learning rate: まず0.1を最初に試して、徐々に小さくしていく
--バッチサイズをx倍にする時は、learning rateもx倍にする
--Dropout: データの近くのレイヤーをdropoutするとデータの情報が削ぎ落とされるてパフォーマンスが落ちるので、中間のレイヤーに適用する
+- learning rate: まず0.1を最初に試して、徐々に小さくしていく
+- バッチサイズをx倍にする時は、learning rateもx倍にする
+- Dropout: データの近くのレイヤーをdropoutするとデータの情報が削ぎ落とされるてパフォーマンスが落ちるので、中間のレイヤーに適用する
