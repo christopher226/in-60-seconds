@@ -1,5 +1,5 @@
 ### About Kaggle
-![Kaggle leaderboard](/Users/christopher/in-60-seconds/assets/img/スクリーンショット\ 2019-05-11\ 16.41.16.png)
+![Kaggle leaderboard](assets/img/スクリーンショット\ 2019-05-11\ 16.41.16.png)
 
 ---
 
