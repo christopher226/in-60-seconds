@@ -1,3 +1,8 @@
+### About Kaggle
+![Kaggle leaderboard](/Users/christopher/Desktop/スクリーンショット\ 2019-05-11\ 16.41.16.png )
+
+---
+
 ### Regularization
 
 - Mean Target Encoding
@@ -46,3 +51,17 @@
 - learning rate: まず0.1を最初に試して、徐々に小さくしていく
 - バッチサイズをx倍にする時は、learning rateもx倍にする
 - Dropout: データの近くのレイヤーをdropoutするとデータの情報が削ぎ落とされるてパフォーマンスが落ちるので、中間のレイヤーに適用する
+
+### Tips
+Tips
+
+---
+
+### Preprocessing
+- 32bit instead of 64
+- hdf5/npy
+- large data into chunks
+- simple test/validation split for testing
+- True CV loops demands high cost
+- start with lightgbm
+- select model after feature engineering
